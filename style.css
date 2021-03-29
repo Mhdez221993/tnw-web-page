@@ -1,3 +1,31 @@
-body {
-  color: red;
+/* Project Meta */
+
+/* reset  */
+
+/* general */
+
+/* typography */
+
+/* grid */
+
+/* header */
+
+/* footer */
+
+/* Page template A */
+
+/* Page template B */
+
+/* Media Queries */
+
+@media only screen and (min-width: 768px) {
+  /* For mobile */
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop */
+}
+
+@media only screen and (min-width: 1200) {
+  /* Extra large devices */
 }
