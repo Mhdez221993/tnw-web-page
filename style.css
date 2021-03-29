@@ -8,9 +8,107 @@
 
 /* grid */
 
-/* header */
+/* header 1 */
+
+footer ul li a {
+  display: block;
+  color: gray;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.li3 a {
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Nav 1 */
+
+.ul1 {
+  list-style-type: none;
+  margin: -10px -10px 0 -10px;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+.li1 {
+  float: left;
+}
+
+.li2 {
+  float: right;
+}
+
+.li1 a,
+.li2 a {
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+footer ul li a:hover {
+  color: white;
+}
+
+.li1 a:hover,
+.li2 a:hover {
+  color: white;
+}
+
+/* Nav 2 */
+
+.ul2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+.li3 {
+  float: left;
+}
+
+.li3 a:hover {
+  color: black;
+}
+
+/* 3 */
+
+.section3 {
+  color: black;
+  background-color: #fd3;
+  padding: 0 0 0 5px;
+  margin: -10px -10px 0 -10px;
+  font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
 
 /* footer */
+footer {
+  background-color: black;
+  color: grey;
+  text-align: center;
+  padding: 5px;
+  margin: -10px -10px 0 -10px;
+}
+
+footer ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+footer ul li {
+  float: left;
+}
 
 /* Page template A */
 
