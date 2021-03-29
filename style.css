@@ -6,7 +6,7 @@
 
 /* typography */
 
-/* grid sistem*/
+/* grid sistem */
 
 /* header */
 
@@ -21,17 +21,13 @@
 /* Media Queries */
 
 @media only screen and (max-width: 480px) {
-    /* For mobile phones: */
-    
+  /* For mobile phones: */
 }
-    
 
 @media only screen and (max-width: 768px) {
-/*For tablets: */
-
+  /* For tablets: */
 }
 
-
 @media only screen and (min-width: 1200px) {
-/* Extra large devices  */
+  /* Extra large devices  */
 }
