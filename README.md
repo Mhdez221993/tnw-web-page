@@ -19,8 +19,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://github.com/Vagyasri/Project-1/blob/Home_Page/accessories/Screenshot/ScreenShot1.png)
-
+[Live Demo Link](https://vagyasri.github.io/tnw-web-page/)
 
 ## Author 1
 
@@ -33,11 +32,11 @@
 
 ## Author 2
 
-👤 **Bhagyashree Patra**
+👤 **Moises Hernandez**
 
-- GitHub: [@githubhandle](https://github.com/Vagyasri)
-- Twitter: [@twitterhandle](https://twitter.com/Lucky86074644)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/bhagyashree-patra-029bb059/)
+- GitHub: [@githubhandle](https://github.com/Mhdez221993)
+- Twitter: [@twitterhandle](https://twitter.com/MoisesH42060050)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/moises-hernandez-9bbb17145/)
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
