@@ -7,10 +7,10 @@
 # Screenshot
 
 ### Header 
-![desktop The Next Web](tnw-web-page/Images/Screenshot1.png)
+![desktop The Next Web](Images/Screenshot1.png)
 
 ### Footer 
-![desktop The Next Web](tnw-web-page/Images/Screenshot2.png)
+![desktop The Next Web](Images/Screenshot2.png)
 
 ## Built With
 
