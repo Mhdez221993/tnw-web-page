@@ -318,6 +318,10 @@ footer ul {
     min-width: 100%;
   }
 
+  footer ul li {
+    float: left;
+  }
+
   .art-2-1 {
     flex-direction: column;
     flex: 0 0 30%;
