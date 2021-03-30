@@ -64,7 +64,7 @@ footer ul li a {
 .ul1 {
   list-style-type: none;
   margin: -10px -10px 0 -10px;
-  padding: 0;
+  padding: 0 10px 0 10px;
   overflow: hidden;
   background-color: black;
 }
@@ -119,10 +119,10 @@ footer > ul > li {
 
 /* 3 */
 
-.section3 {
+.sec3 {
   color: black;
   background-color: #fd3;
-  padding: 0 0 0 5px;
+  padding: 0 0 0 30px;
   margin: -10px -10px 0 -10px;
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
   font-size: 14px;
