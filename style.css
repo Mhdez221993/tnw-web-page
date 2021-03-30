@@ -36,8 +36,15 @@ ul {
 /* grid */
 
 /* header */
+
 /* header 1 */
 
+footer ul li a {
+  display: block;
+  color: gray;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
 .li3 a {
   display: block;
@@ -189,13 +196,6 @@ footer ul {
 
 footer ul li {
   float: left;
-}
-
-footer ul li a {
-  display: block;
-  color: gray;
-  padding: 14px 16px;
-  text-decoration: none;
 }
 
 /* Page template A */
