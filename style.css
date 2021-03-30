@@ -34,8 +34,6 @@ ul {
   list-style: none;
 }
 
-.absolute
-
 /* general */
 
 /* typography */
@@ -90,6 +88,10 @@ footer ul li a {
 
 footer ul li a:hover {
   color: white;
+}
+
+footer > ul > li {
+  float: left;
 }
 
 .li1 a:hover,
@@ -189,7 +191,8 @@ main {
 .section-3 > header {
   margin-bottom: 20px;
 }
-[class*='art-3-'] {
+
+[class*="art-3-"] {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -198,11 +201,11 @@ main {
   margin-bottom: 10px;
 }
 
-.art-3-1 > li{
+.art-3-1 > li {
   padding: 10px 0;
 }
 
-[class*='art-3-1'] > h4 {
+[class*="art-3-1"] > h4 {
   padding-left: 100px;
 }
 
@@ -223,6 +226,7 @@ main {
   display: flex;
   flex-direction: column;
 }
+
 .img-4 {
   max-width: 100px;
   float: right;
@@ -241,10 +245,6 @@ footer {
 footer ul {
   list-style-type: none;
   overflow: hidden;
-}
-
-footer ul li {
-  float: left;
 }
 
 /* Page template A */
@@ -307,13 +307,11 @@ footer ul li {
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
-
   }
 
   .art-3-1 {
     flex: 0 0 32%;
   }
-
 }
 
 @media only screen and (min-width: 1050px) {
@@ -334,5 +332,4 @@ footer ul li {
   .art-3-1 {
     flex: 0 0 24%;
   }
-
 }
