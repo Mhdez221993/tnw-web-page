@@ -52,7 +52,45 @@ a {
 
 /* header 1 */
 
+.header {
+  position: relative;
+}
+
+.brand {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 15px;
+  margin: 0;
+  width: 100px;
+  height: 50px;
+  background-color: #000;
+}
+
+/* Mobile */
+
+.mobile {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.mobile > i {
+  /* margin-right: 20px; */
+  padding: 15px;
+  border-left: 1px solid #eee;
+  color: rgb(155, 142, 142);
+  font-size: 20px;
+}
+
+.mobile i:nth-child(2) {
+  color: red;
+}
+
 /* Nav 1 */
+
+.desktop {
+  display: none;
+}
 
 .ul1 {
   display: none;
@@ -103,12 +141,11 @@ footer ul li a:hover {
 .sec3 {
   color: black;
   background-color: #fd3;
-  padding: 0 0 0 30px;
-  margin: -10px -10px 0 -10px;
+  padding: 10px 0;
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
-  line-height: 21px;
+  text-align: center;
 }
 
 /* main */
@@ -238,6 +275,28 @@ main {
 
 @media only screen and (min-width: 768px) {
   /* For desktop */
+  .brand {
+    padding: 10px 10px;
+    height: 77px;
+  }
+
+  .ul2,
+  .ul1 {
+    padding-left: 110px;
+  }
+
+  .sec3 {
+    text-align: left;
+    padding: 1px 0 0 110px;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: block;
+  }
 
   .img-1-1 {
     min-height: 450px;
