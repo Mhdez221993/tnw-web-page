@@ -230,8 +230,6 @@ main {
   border-bottom: 2px solid red;
 }
 
-
-
 /* Page template A */
 
 /* Page template B */
@@ -327,7 +325,7 @@ footer {
   justify-content: center;
 }
 
-.nav-3 > li{
+.nav-3 > li {
   padding: 5px;
   margin: 7px;
   background-color: #eee;
