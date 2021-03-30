@@ -19,15 +19,22 @@ img {
 
 body,
 ul,
-figure {
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   padding: 0;
 }
 
 ul {
   list-style: none;
-  color: white;
 }
+
+.absolute
 
 /* general */
 
@@ -131,6 +138,7 @@ main {
 .wrapper {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 /* img-1 */
@@ -178,6 +186,47 @@ main {
 }
 
 /* section-3 */
+.section-3 > header {
+  margin-bottom: 20px;
+}
+[class*='art-3-'] {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10px;
+  background-color: rgb(236, 227, 227);
+  margin-bottom: 10px;
+}
+
+.art-3-1 > li{
+  padding: 10px 0;
+}
+
+[class*='art-3-1'] > h4 {
+  padding-left: 100px;
+}
+
+.img-3 {
+  max-width: 50px;
+  max-height: 50px;
+  position: absolute;
+  top: 20px;
+}
+
+.none {
+  display: none;
+}
+
+/* section-4 */
+
+.art-4-1 {
+  display: flex;
+  flex-direction: column;
+}
+.img-4 {
+  max-width: 100px;
+  float: right;
+}
 
 /* footer */
 
@@ -251,6 +300,20 @@ footer ul li {
     flex-direction: column;
     flex: 0 0 30%;
   }
+
+  /* Section-3 */
+
+  .sec-3-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+
+  }
+
+  .art-3-1 {
+    flex: 0 0 32%;
+  }
+
 }
 
 @media only screen and (min-width: 1050px) {
@@ -261,4 +324,15 @@ footer ul li {
   .section-2 > h1 {
     grid-area: 1/1/2/5;
   }
+
+  /* Section-3 */
+
+  .none {
+    display: block;
+  }
+
+  .art-3-1 {
+    flex: 0 0 24%;
+  }
+
 }
