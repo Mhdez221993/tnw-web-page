@@ -173,6 +173,11 @@ main {
   position: absolute;
   bottom: 0;
   padding: 20px;
+  font-family: Avalon, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30.8px;
+  color: rgb(255, 255, 255);
 }
 
 [class*="img-1"] {
@@ -188,6 +193,21 @@ main {
 
 .section-2 {
   padding: 20px 0;
+}
+
+text-decoration: none;
+
+.red a:hover {
+  color: black;
+}
+
+.black-und-red a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.graycol {
+  color: rgb(187, 182, 182);
 }
 
 .art-2-1 {
@@ -336,6 +356,15 @@ main {
 
   .img-2-1 {
     min-width: 100%;
+  }
+
+  .red a {
+    color: red;
+  }
+
+  .black-und-red a {
+    color: black;
+    text-decoration: none;
   }
 
   footer ul li {
