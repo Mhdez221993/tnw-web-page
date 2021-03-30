@@ -36,6 +36,10 @@ ul {
 
 /* general */
 
+.space-between {
+  height: 150px;
+}
+
 /* typography */
 
 /* grid */
@@ -145,10 +149,6 @@ main {
 
 /* img-1 */
 
-.section-1 {
-  margin-bottom: 200px;
-}
-
 [class*="art-1"] {
   position: relative;
   max-height: 300px;
@@ -174,7 +174,6 @@ main {
 
 .section-2 {
   padding: 20px 0;
-  margin-top: 200px;
 }
 
 .art-2-1 {
@@ -228,7 +227,7 @@ main {
 /* section-4 */
 
 .art-4 {
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 .art-4 > li {
@@ -354,7 +353,7 @@ footer ul {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
-  .section-2 > h1 {
+  .section-2 > header {
     grid-area: 1/1/2/5;
   }
 
