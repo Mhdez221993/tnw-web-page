@@ -4,43 +4,50 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://use.fontawesome.com/f8a3ee0e31.js"></script>
+    <script src="index.js"></script>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="banner.css">
     <title>TNW</title>
   </head>
   <body>
-    <header>
-      <nav>
+    <header class="header" id="header">
+      <nav class="desktop">
         <ul class="ul1">
-          <li class="li1"><a href="#">News</a></li>
-          <li class="li1"><a href="#">Events</a></li>
-          <li class="li1"><a href="#">Business</a></li>
-          <li class="li1"><a href="#">AMAs</a></li>
-          <li class="li1"><a href="#">Terms & Conditions</a></li>
-          <li class="li2"><a href="#">Contact</a></li>
-          <li class="li2"><a href="#">Jobs</a></li>
-          <li class="li2"><a href="#">Advertise</a></li>
-          <li class="li2"><a href="#">About</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Business</a></li>
+          <li><a href="#">AMAs</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li class="right"><a href="#">About</a></li>
+          <li><a href="#">Advertise</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Contact</a></li>
         </ul>
       </nav>
-      <nav>
+      <nav class="desktop">
         <ul class="ul2">
-          <li class="li3"><a href="#">LATEST</a></li>
-          <li class="li3"><a href="#">HARD FORK</a></li>
-          <li class="li3"><a href="#">PLUGGED</a></li>
-          <li class="li3"><a href="#">README</a></li>
-          <li class="li3"><a href="#">GROWTH QUARTERS</a></li>
-          <li class="li3"><a href="#">SHIFT</a></li>
-          <li class="li3"><a href="#">NEWRAL</a></li>
+          <li><a href="#">LATEST</a></li>
+          <li><a href="#">HARD FORK</a></li>
+          <li><a href="#">PLUGGED</a></li>
+          <li><a href="#">README</a></li>
+          <li><a href="#">GROWTH QUARTERS</a></li>
+          <li><a href="#">SHIFT</a></li>
+          <li><a href="#">NEWRAL</a></li>
+          <li class="icon"><i class="fa fa-search"></i></li>
         </ul>
-        <div class="sec3">
-          <p>
-            Connect with high-level marketing leaders. Join Boost online event →
-          </p>
-        </div>
       </nav>
-    </header>
     
-    <main>
+    <nav class="mobile">
+      <i class="fa fa-search"></i>
+      <i id="burger" class="fa fa-bars" onclick="displayNone()"></i>
+    </nav>
+    <div class="sec3">
+      <p>Connect with high-level marketing leaders. Join Boost online event → </p>
+    </div>
+    <img class="brand" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg" alt="">
+    </header>
+    <main id="main">
       <div>
         <section class="section-1">
           <article class="art-1-1">
@@ -696,9 +703,18 @@
         </section>
       </div>
     </main>
-    <footer>
+    <footer id="footer">
       <nav>
-        <ul>
+        <ul class="nav-3">
+          <li><i class="fa fa-facebook-square"></i></li>
+          <li><i class="fa fa-twitter"></i></li>
+          <li><i class="fa fa-youtube"></i></li>
+          <li><i class="fa fa-instagram"></i></li>
+          <li><i class="fa fa-pinterest-square"></i></li>
+          <li><i class="fa fa-wifi"></i></li>
+          <li><i class="fa fa-envelope"></i></li>
+        </ul>
+        <ul class="nav-4">
           <li><a href="#">EVENTS</a></li>
           <li><a href="#">ABOUT</a></li>
           <li><a href="#">ADVERTISE</a></li>
@@ -711,5 +727,45 @@
         Amsterdam. Powered by StackPath
       </p>
     </footer>
+    <!-- <div class="print"><i class="fa fa-fingerprint"></i></div> -->
+    <div id="humberger">
+      <div class="row-1">
+        <img class="hum-img" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg" alt="">
+        <i id="back" class="fa fa-times" onclick="displayBack()"></i>
+      </div>
+      <ul class="row-2">
+        <li><i class="fa fa-facebook-square"></i></li>
+        <li><i class="fa fa-twitter"></i></li>
+        <li><i class="fa fa-youtube"></i></li>
+        <li><i class="fa fa-instagram"></i></li>
+        <li><i class="fa fa-pinterest-square"></i></li>
+        <li><i class="fa fa-wifi"></i></li>
+        <li><i class="fa fa-envelope"></i></li>
+      </ul>
+      <nav class="row-3">
+        <ul>
+          <li><h4>SECTION</h4></li>
+          <li>Latest</li>
+          <li>Insights</li>
+          <li>Plugged</li>
+          <li>Hard Fork</li>
+          <li>ReadMe</li>
+          <li>Growth Quarters</li>
+          <li>Shift</li>
+          <li>Neural</li>
+        </ul>
+        <ul>
+          <li><h4>ABOUT TNW</h4></li>
+          <li>Latest</li>
+          <li>Insights</li>
+          <li>Plugged</li>
+          <li>Hard Fork</li>
+          <li>ReadMe</li>
+          <li>Growth Quarters</li>
+          <li>Shift</li>
+          <li>Neural</li>
+        </ul>
+      </nav>
+    </div>
   </body>
 </html>

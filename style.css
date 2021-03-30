@@ -34,6 +34,10 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* general */
 
 .space-between {
@@ -48,54 +52,73 @@ ul {
 
 /* header 1 */
 
-footer ul li a {
-  display: block;
-  color: gray;
-  padding: 14px 16px;
-  text-decoration: none;
+.header {
+  position: relative;
 }
 
-.li3 a {
-  display: block;
-  color: gray;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+.brand {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 15px;
+  margin: 0;
+  width: 100px;
+  height: 50px;
+  background-color: #000;
+}
+
+/* Mobile */
+
+.mobile {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.mobile > i {
+  /* margin-right: 20px; */
+  padding: 15px;
+  border-left: 1px solid #eee;
+  color: rgb(155, 142, 142);
+  font-size: 20px;
+}
+
+.mobile i:nth-child(2) {
+  color: red;
 }
 
 /* Nav 1 */
 
+.desktop {
+  display: none;
+}
+
 .ul1 {
-  list-style-type: none;
-  margin: -10px -10px 0 -10px;
-  padding: 0 10px 0 10px;
-  overflow: hidden;
-  background-color: black;
+  display: none;
+  display: flex;
+  padding: 10px 0 10px 20px;
+  background-color: #000;
 }
 
-.li1 {
-  float: left;
+.ul2 {
+  display: none;
+  display: flex;
+  padding: 10px 0 10px 20px;
 }
 
-.li2 {
-  float: right;
+.ul2 > li {
+  margin-right: 20px;
 }
 
-.li1 a,
-.li2 a {
-  display: block;
-  color: gray;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+.ul1 > li {
+  margin-right: 20px;
+}
+
+.right {
+  margin-left: auto;
 }
 
 footer ul li a:hover {
   color: white;
-}
-
-footer > ul > li {
-  float: left;
 }
 
 .li1 a:hover,
@@ -105,20 +128,12 @@ footer > ul > li {
 
 /* Nav 2 */
 
-.ul2 {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: white;
-}
-
-.li3 {
-  float: left;
-}
-
 .li3 a:hover {
   color: black;
+}
+
+.icon {
+  margin-left: auto;
 }
 
 /* 3 */
@@ -126,12 +141,11 @@ footer > ul > li {
 .sec3 {
   color: black;
   background-color: #fd3;
-  padding: 0 0 0 30px;
-  margin: -10px -10px 0 -10px;
+  padding: 10px 0;
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
-  line-height: 21px;
+  text-align: center;
 }
 
 /* main */
@@ -201,7 +215,7 @@ text-decoration: none;
   margin-bottom: 1rem;
 }
 
-.section-2 > h1 {
+.section-2 > header {
   padding: 20px 0;
   width: 100%;
 }
@@ -273,21 +287,6 @@ text-decoration: none;
   border-bottom: 2px solid red;
 }
 
-/* footer */
-
-footer {
-  background-color: black;
-  color: grey;
-  text-align: center;
-  padding: 5px;
-  margin: -10px -10px 0 -10px;
-}
-
-footer ul {
-  list-style-type: none;
-  overflow: hidden;
-}
-
 /* Page template A */
 
 /* Page template B */
@@ -296,6 +295,28 @@ footer ul {
 
 @media only screen and (min-width: 768px) {
   /* For desktop */
+  .brand {
+    padding: 10px 10px;
+    height: 77px;
+  }
+
+  .ul2,
+  .ul1 {
+    padding-left: 110px;
+  }
+
+  .sec3 {
+    text-align: left;
+    padding: 1px 0 0 110px;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .desktop {
+    display: block;
+  }
 
   .img-1-1 {
     min-height: 450px;
@@ -329,7 +350,7 @@ footer ul {
     grid-gap: 1rem;
   }
 
-  .section-2 > h1 {
+  .section-2 > header {
     grid-area: 1/1/2/4;
   }
 
@@ -375,6 +396,33 @@ footer ul {
     grid-template-rows: auto;
     grid-gap: 20px;
   }
+}
+
+/* footer */
+
+footer {
+  background-color: black;
+  color: grey;
+  text-align: center;
+  height: 250px;
+  padding: 30px 0;
+}
+
+.nav-3 {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-3 > li {
+  padding: 5px;
+  margin: 7px;
+  background-color: #eee;
+  border-radius: 40px;
+}
+
+.nav-4 {
+  display: flex;
+  justify-content: center;
 }
 
 @media only screen and (min-width: 1050px) {

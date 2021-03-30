@@ -1,0 +1,54 @@
+#humberger {
+  width: 100vw;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom right, #c09, #f42 85%);
+  z-index: 100;
+  display: none;
+  position: absolute;
+}
+
+.row-1 {
+  display: flex;
+  padding: 10px;
+}
+
+.hum-img {
+  width: 100px;
+  margin-right: auto;
+}
+
+.row-1 > i.fa {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 100;
+}
+
+.row-2 {
+  display: flex;
+  padding: 20px 30px;
+  border-top: 1px solid rgb(236, 136, 136);
+  border-bottom: 1px solid rgb(236, 136, 136);
+}
+
+.row-2 > li > i.fa {
+  margin-right: 20px;
+  color: #fff;
+  font-size: 22px;
+}
+
+.row-3 {
+  display: flex;
+  padding: 20px;
+  flex-flow: row wrap;
+  color: white;
+}
+
+.row-3 > ul {
+  margin-right: 130px;
+}
+
+.row-3 > ul > li {
+  padding: 7px 0;
+}
