@@ -391,6 +391,10 @@ main {
     text-decoration: none;
   }
 
+  .sec3 a {
+    color: black;
+  }
+
   footer ul li {
     float: left;
   }
