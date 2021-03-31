@@ -142,18 +142,25 @@ a {
   text-decoration: none;
 }
 
-.footer ul li a:hover {
-  color: white;
-}
-
 .li1 a:hover {
   color: white;
 }
 
-/* Nav 2 */
-
 .li3 a:hover {
   color: black;
+}
+
+.red a:hover {
+  color: black;
+}
+
+.black-und-red a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.footer ul li a:hover {
+  color: white;
 }
 
 .icon {
@@ -225,15 +232,6 @@ main {
 
 .section-2 {
   padding: 20px 0;
-}
-
-.red a:hover {
-  color: black;
-}
-
-.black-und-red a:hover {
-  color: red;
-  text-decoration: underline;
 }
 
 .graycol {
