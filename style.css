@@ -408,6 +408,10 @@ main {
     flex: 0 0 32%;
   }
 
+  .space {
+    padding: 0 20px;
+  }
+
   /* section-4 */
 
   .section-4 {
