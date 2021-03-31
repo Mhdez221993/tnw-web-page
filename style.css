@@ -73,6 +73,15 @@ a {
 
 /* Mobile */
 
+.red a {
+  color: red;
+}
+
+.black-und-red a {
+  color: black;
+  text-decoration: none;
+}
+
 .mobile {
   display: flex;
   justify-content: flex-end;
@@ -401,6 +410,15 @@ main {
     color: black;
   }
 
+  .red a:hover {
+    color: black;
+  }
+
+  .black-und-red a:hover {
+    color: red;
+    text-decoration: underline;
+  }
+
   .footer ul li {
     float: left;
   }
@@ -466,6 +484,24 @@ main {
 @media only screen and (min-width: 1050px) {
   .brand {
     display: none;
+  }
+
+  .red a {
+    color: red;
+  }
+
+  .black-und-red a {
+    color: black;
+    text-decoration: none;
+  }
+
+  .red a:hover {
+    color: black;
+  }
+
+  .black-und-red a:hover {
+    color: red;
+    text-decoration: underline;
   }
 
   .section-2 {
