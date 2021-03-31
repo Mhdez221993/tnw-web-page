@@ -131,6 +131,13 @@ a {
   text-decoration: none;
 }
 
+footer ul li a {
+  display: block;
+  color: gray;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 footer ul li a:hover {
   color: white;
 }
@@ -207,8 +214,6 @@ main {
 .section-2 {
   padding: 20px 0;
 }
-
-text-decoration: none;
 
 .red a:hover {
   color: black;
