@@ -40,6 +40,10 @@ a {
 
 /* general */
 
+.body {
+  position: relative;
+}
+
 .space-between {
   height: 150px;
 }
