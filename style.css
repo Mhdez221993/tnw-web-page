@@ -211,7 +211,7 @@ main {
   display: flex;
 }
 
-.list-1 > li{
+.list-1 > li {
   color: rgb(223, 213, 213);
   margin-right: 10px;
 }
@@ -353,7 +353,7 @@ main {
   .img-1-1 {
     height: 520px;
   }
-  
+
   .img-1-2 {
     height: 253px;
   }
