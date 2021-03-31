@@ -121,8 +121,15 @@ footer ul li a:hover {
   color: white;
 }
 
-.li1 a:hover,
-.li2 a:hover {
+.li1 a{
+  display: block;
+  color: gray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.li1 a:hover{
   color: white;
 }
 
