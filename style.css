@@ -144,6 +144,10 @@ a {
   font-size: 14px;
 }
 
+.sec3 a {
+  color: black;
+}
+
 .footer ul li a {
   display: block;
   color: gray;
@@ -181,11 +185,12 @@ a {
 .sec3 {
   color: black;
   background-color: #fd3;
-  padding: 10px 0;
   font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
   font-size: 14px;
   font-weight: 400;
   text-align: center;
+  text-align: left;
+  padding: 10px 0 10px 10px;
 }
 
 /* main */
@@ -344,11 +349,6 @@ main {
     padding-left: 110px;
   }
 
-  .sec3 {
-    text-align: left;
-    padding: 1px 0 0 110px;
-  }
-
   .mobile {
     display: none;
   }
@@ -404,6 +404,17 @@ main {
   .black-und-red a {
     color: black;
     text-decoration: none;
+  }
+
+  .sec3 {
+    color: black;
+    background-color: #fd3;
+    font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    text-align: left;
+    padding: 10px 0 10px 10px;
   }
 
   .sec3 a {
@@ -484,6 +495,21 @@ main {
 @media only screen and (min-width: 1050px) {
   .brand {
     display: none;
+  }
+
+  .sec3 {
+    color: black;
+    background-color: #fd3;
+    font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    text-align: left;
+    padding: 10px 0 10px 10px;
+  }
+
+  .sec3 a {
+    color: black;
   }
 
   .red a {
