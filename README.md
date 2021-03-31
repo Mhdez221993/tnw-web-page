@@ -19,7 +19,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://vagyasri.github.io/tnw-web-page/)
+[Live Demo Link](https://mhdez221993.github.io/tnw-web-page/)
 
 ## Author 1
 
