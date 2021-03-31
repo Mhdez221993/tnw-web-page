@@ -119,13 +119,6 @@ a {
   margin-left: auto;
 }
 
-footer ul li a {
-  display: block;
-  color: gray;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
 .li3 a {
   display: block;
   color: gray;
@@ -142,7 +135,14 @@ footer ul li a {
   font-size: 14px;
 }
 
-footer ul li a:hover {
+.footer ul li a {
+  display: block;
+  color: gray;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.footer ul li a:hover {
   color: white;
 }
 
@@ -395,7 +395,7 @@ main {
     color: black;
   }
 
-  footer ul li {
+  .footer ul li {
     float: left;
   }
 
@@ -432,7 +432,7 @@ main {
 
 /* footer */
 
-footer {
+.footer {
   background-color: black;
   color: grey;
   text-align: center;
