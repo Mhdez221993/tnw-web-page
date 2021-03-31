@@ -189,7 +189,6 @@ main {
 
 [class*="art-1"] {
   position: relative;
-  max-height: 300px;
   margin-bottom: 10px;
 }
 
@@ -205,7 +204,16 @@ main {
 }
 
 [class*="img-1"] {
-  max-height: 200px;
+  height: 200px;
+}
+
+.list-1 {
+  display: flex;
+}
+
+.list-1 > li{
+  color: rgb(223, 213, 213);
+  margin-right: 10px;
 }
 
 /* img-2 */
@@ -343,11 +351,11 @@ main {
   }
 
   .img-1-1 {
-    min-height: 450px;
+    height: 520px;
   }
-
+  
   .img-1-2 {
-    min-height: 223px;
+    height: 253px;
   }
 
   .section-1 {
