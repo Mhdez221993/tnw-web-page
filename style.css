@@ -132,6 +132,42 @@ main {
   position: relative;
 }
 
+.img-1-1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom right, red, black);
+  opacity: 0.8;
+}
+
+.img-1-2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #42378f;
+  background-color: #3f0d12;
+  background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
+  opacity: 0.8;
+}
+
+.img-1-3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #d19592;
+  background-image: linear-gradient(315deg, #d19592 0%, #c81f70 74%);
+  opacity: 0.8;
+}
+
 [class*="header-1"] {
   position: absolute;
   bottom: 0;
