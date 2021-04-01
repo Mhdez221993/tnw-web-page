@@ -67,7 +67,7 @@ h3 {
 
 main {
   width: 97%;
-  margin: 90px;
+  margin: 0 auto;
 }
 
 .wrapper {
@@ -390,6 +390,10 @@ h5 {
   }
 
   /* Main */
+
+  .main {
+    margin: 90px;
+  }
 
   .header-imgs {
     grid-row-gap: 10px;
