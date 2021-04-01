@@ -391,6 +391,10 @@ h5 {
 
   /* Main */
 
+  .main {
+    margin: 90px;
+  }
+
   .header-imgs {
     grid-row-gap: 10px;
     grid-column-gap: 10px;
