@@ -76,6 +76,11 @@ main {
   padding: 0 10px;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 /* typography */
 
 /* grid */
@@ -83,7 +88,10 @@ main {
 /* header */
 
 .header {
-  position: relative;
+  position: fixed;
+  background-color: #fff;
+  z-index: 1;
+  width: 100%;
 }
 
 .mobile {
@@ -148,6 +156,7 @@ li > a {
   grid-template-columns: 1fr;
   grid-template-rows: 160px 160px 160px;
   margin-bottom: 70px;
+  position: relative;
 }
 
 [class*="img-1-"] {
@@ -389,6 +398,7 @@ h5 {
     grid-column-gap: 10px;
     grid-template-columns: 1fr 190px;
     grid-template-rows: 150px 150px;
+    padding-top: 105px;
   }
 
   .img-1-1 {
@@ -492,10 +502,10 @@ h5 {
     position: absolute;
     width: 200px;
     height: 70px;
-    z-index: 100;
   }
 
   /* Section-1 */
+
   .header-1 > h1 {
     font-size: 58px;
   }
