@@ -462,10 +462,6 @@ h5 {
     display: block;
   }
 
-  .section-4 {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
   .header-imgs {
     position: relative;
     grid-template-columns: 1fr 450px;

@@ -1,0 +1,44 @@
+/* Sectio-4 */
+.art-4 {
+  margin-bottom: 10px;
+}
+
+.art-4 > li {
+  border-bottom: 1px solid #eee;
+  padding: 5px 0;
+  margin-bottom: 10px;
+}
+
+.relative {
+  position: relative;
+}
+
+.flex-4 {
+  display: flex;
+  justify-content: space-between;
+  height: 14vh;
+  margin-top: -22px;
+}
+
+.img-4 {
+  max-width: 100px;
+}
+
+.non-border {
+  border-bottom: 2px solid red;
+}
+
+@media only screen and (min-width: 768px) {
+  .section-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .section-4 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
