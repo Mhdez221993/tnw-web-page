@@ -402,7 +402,7 @@ h5 {
   .header-imgs {
     position: relative;
     grid-template-columns: 1fr 450px;
-    grid-template-rows: 270px 270px;
+    grid-template-rows: 260px 260px;
   }
 
   .img-log {
