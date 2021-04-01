@@ -46,7 +46,8 @@ a {
 }
 
 h4,
-h5 {
+h5,
+h3 {
   padding: 0;
   margin: 0;
 }
@@ -122,6 +123,10 @@ main {
   text-align: center;
   padding: 20px 5px;
   color: black;
+}
+
+.flex-4 {
+  padding: 10px 0;
 }
 
 .flex-4 > li,
@@ -416,12 +421,16 @@ h5 {
     flex-flow: row wrap;
   }
 
-  .flex-4 > li:not(:first-child) {
-    margin-right: 20px;
-  }
-
   .flex-4-1 {
     width: 100%;
+  }
+
+  .pipe-line {
+    border-right: 1px solid var(--orange);
+    border-left: 1px solid var(--orange);
+    padding: 0 20px;
+    margin: 0 20px;
+    height: 15px;
   }
 }
 
