@@ -7,10 +7,10 @@
 # Screenshot
 
 ### Header 
-![desktop The Next Web](Images/Screenshot1.png)
+![Mobile The Next Web](Images/malestone-1-1.png)
 
 ### Footer 
-![desktop The Next Web](Images/Screenshot2.png)
+![desktop The Next Web](Images/malestone-1.png)
 
 ## Built With
 
