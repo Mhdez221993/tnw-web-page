@@ -27,6 +27,24 @@
   justify-content: center;
 }
 
+.stackpathimg {
+  display: inline;
+  height: 9px;
+  width: 50px;
+}
+
+.stackpathimg2 {
+  display: inline;
+  height: 9px;
+  width: 80px;
+}
+
+.footclr {
+  padding-top: 50px;
+  padding-bottom: 10px;
+  color: #aaa;
+}
+
 .footer ul li a {
   display: block;
   color: gray;
