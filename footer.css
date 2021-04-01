@@ -1,0 +1,39 @@
+.nav-3 > li {
+  padding: 5px;
+  margin: 7px;
+  background-color: #eee;
+  border-radius: 40px;
+}
+
+.footer ul li {
+  float: left;
+}
+
+.footer {
+  background-color: black;
+  color: grey;
+  text-align: center;
+  height: 250px;
+  padding: 30px 0;
+}
+
+.nav-3 {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-4 {
+  display: flex;
+  justify-content: center;
+}
+
+.footer ul li a {
+  display: block;
+  color: gray;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.footer ul li a:hover {
+  color: white;
+}
