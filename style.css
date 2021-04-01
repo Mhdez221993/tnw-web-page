@@ -111,11 +111,34 @@ a {
   font-size: 14px;
 }
 
+.latest1 {
+  background-color: rgb(241, 228, 228);
+  padding-top: 5px;
+}
+
+.latest1 a {
+  color: red;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.latest2 a {
+  color: red;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 17.5px;
+}
+
 .footer ul li a {
   display: block;
   color: gray;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+.latest2 a:hover {
+  text-decoration: underline;
 }
 
 .red a:hover {
