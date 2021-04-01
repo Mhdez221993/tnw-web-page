@@ -113,7 +113,8 @@ a {
 
 .latest1 {
   background-color: rgb(241, 228, 228);
-  padding-top: 5px;
+  padding-top: 15px;
+  padding-left: 15px;
 }
 
 .latest1 a {
@@ -351,6 +352,8 @@ main {
 .flex-4 {
   display: flex;
   justify-content: space-between;
+  height: 14vh;
+  margin-top: -22px;
 }
 
 .img-4 {
