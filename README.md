@@ -6,10 +6,10 @@
 
 # Screenshot
 
-### Header 
+### Mobile 
 ![Mobile The Next Web](Images/malestone-1-1.png)
 
-### Footer 
+### Desktop 
 ![desktop The Next Web](Images/malestone-1.png)
 
 ## Built With
