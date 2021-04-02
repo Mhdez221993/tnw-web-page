@@ -1,0 +1,34 @@
+//Variables
+
+@bcolor: black;
+@tcolor: gray;
+
+.footer {
+  background: @bcolor;
+  color: @tcolor;
+
+  //Nesting
+
+  li {
+    a {
+      display: block;
+      color: @tcolor;
+      text-decoration: none;
+
+      &:hover {
+        color: white;
+      }
+    }
+  }
+}
+
+//Mixins
+@radius: 50%;
+
+.circular-border {
+  border-radius: @radius;
+}
+
+.icon {
+  .circular-border;
+}

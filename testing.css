@@ -1,0 +1,22 @@
+.footer {
+  background: black;
+  color: gray;
+}
+
+.footer li a {
+  display: block;
+  color: gray;
+  text-decoration: none;
+}
+
+.footer li a:hover {
+  color: white;
+}
+
+.circular-border {
+  border-radius: 50%;
+}
+
+.icon {
+  border-radius: 50%;
+}
