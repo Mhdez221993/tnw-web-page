@@ -33,14 +33,20 @@ a {
   text-decoration: none;
 }
 
-.nav-2 li {
-  padding: 14px 15px 12px 15px;
+.nav-2 {
+  li {
+    padding: 14px 15px 12px 15px;
+  }
+}
+
+@mixin transform($property) {
+  -webkit-transform: $property;
+  -ms-transform: $property;
+  transform: $property;
 }
 
 .span-off {
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
+  @include transform(rotate(45deg));
 }
 
 .tablet,
@@ -59,6 +65,16 @@ h3 {
 }
 
 /* general */
+
+$orange: #f42;
+$light-grey: rgb(231, 221, 221);
+$yellow: #fd3;
+$black: #131313;
+$light-white: hsla(0, 0%, 100%, 0.6);
+$white: #fff;
+$grey-white: #aaa;
+$white-opaque: #fff9;
+
 main {
   width: 97%;
   margin: 0 auto;
@@ -105,23 +121,23 @@ body {
 }
 
 .humberger {
-  color: #f42;
+  color: $orange;
   padding: 0 10px;
   padding-top: 10px;
   font-size: 23px;
-  border-left: 1px solid #e7dddd;
+  border-left: 1px solid $light-grey;
 }
 
 .search {
-  color: #e7dddd;
+  color: $light-grey;
   padding: 0 10px;
   padding-top: 10px;
   font-size: 17px;
-  border-left: 1px solid #e7dddd;
+  border-left: 1px solid $light-grey;
 }
 
 .yellow-sect {
-  background-color: #fd3;
+  background-color: $yellow;
   text-align: center;
   padding: 20px 5px;
   color: black;
@@ -133,7 +149,7 @@ body {
 
 .flex-4 > li,
 li > a {
-  color: #f42;
+  color: $orange;
   margin-bottom: 10px;
 }
 
@@ -142,6 +158,7 @@ li > a {
 }
 
 /* main */
+
 .header-imgs {
   padding-top: 3px;
   display: grid;
@@ -153,7 +170,7 @@ li > a {
   position: relative;
 }
 
-[class*="img-1-"] {
+[class*=img-1-] {
   position: relative;
 }
 
@@ -164,7 +181,7 @@ li > a {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #131313;
+  background-color: $black;
   opacity: 0.3;
 }
 
@@ -175,7 +192,7 @@ li > a {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #131313;
+  background-color: $black;
   opacity: 0.4;
 }
 
@@ -186,11 +203,11 @@ li > a {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #131313;
+  background-color: $black;
   opacity: 0.3;
 }
 
-[class*="header-1"] {
+[class*=header-1] {
   position: absolute;
   bottom: 0;
   padding: 5px 20px;
@@ -198,14 +215,14 @@ li > a {
 
 .header-1 > h1,
 h2 {
-  color: #fff;
+  color: $white;
   font-family: sans-serif;
   font-size: 20px;
   margin-bottom: 3px;
 }
 
 .header-1 > span {
-  color: #fff9;
+  color: $white-opaque;
   font-size: 13px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
@@ -222,6 +239,7 @@ h2 {
 }
 
 /* section-3 */
+
 .section-3 {
   margin-bottom: 50px;
 }
@@ -238,7 +256,7 @@ h2 {
   padding: 10px 0;
 }
 
-[class*="art-3-1"] > h4,
+[class*=art-3-1] > h4,
 h5 {
   padding-left: 100px;
 }
@@ -281,7 +299,7 @@ h5 {
 }
 
 .art-3-1-4 {
-  border-top: 1px solid #fac1c1;
+  border-top: 1px solid rgb(250, 193, 193);
 }
 
 .art-3-1-4 > span {
@@ -305,6 +323,7 @@ h5 {
 
 @media only screen and (min-width: 600px) {
   /* For desktop */
+
   .mobile {
     display: none;
   }
@@ -325,19 +344,19 @@ h5 {
   .nav-1 {
     display: flex;
     padding: 5px;
-    background-color: #131313;
+    background-color: $black;
     padding-left: 15px;
   }
 
   .nav-1 > li > a {
     margin-right: 10px;
-    color: rgba(255, 255, 255, 0.6);
+    color: $light-white;
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
   }
 
   .white-color > .white {
-    color: #fff;
+    color: $white;
   }
 
   .left-auto {
@@ -349,7 +368,7 @@ h5 {
   }
 
   .nav-2 > li > a {
-    color: #aaa;
+    color: $grey-white;
     font-size: 14px;
     font-family: sans-serif;
   }
@@ -360,6 +379,7 @@ h5 {
   }
 
   /* Main */
+
   .main {
     margin: 90px;
   }
@@ -381,6 +401,7 @@ h5 {
   }
 
   /* Section-1 */
+
   .header-1 > h1 {
     font-size: 25px;
   }
@@ -390,6 +411,7 @@ h5 {
   }
 
   /* Section-3 */
+
   .sec-3-wrapper {
     display: flex;
     justify-content: space-between;
@@ -410,8 +432,8 @@ h5 {
   }
 
   .pipe-line {
-    border-right: 1px solid #f42;
-    border-left: 1px solid #f42;
+    border-right: 1px solid $orange;
+    border-left: 1px solid $orange;
     padding: 0 20px;
     margin: 0 20px;
     height: 15px;
@@ -482,6 +504,7 @@ h5 {
   }
 
   /* Section-1 */
+
   .header-1 > h1 {
     font-size: 58px;
   }
@@ -490,6 +513,5 @@ h5 {
     font-size: 28px;
   }
 }
-/*# sourceMappingURL=example.scss.map */
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=example.scss.map */

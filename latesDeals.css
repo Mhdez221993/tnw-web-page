@@ -1,0 +1,66 @@
+/* Section-5 */
+.relative {
+  position: relative;
+}
+
+.art-2-1.hidden {
+  display: none;
+}
+
+.section-2 > .lates-deals {
+  display: flex;
+  justify-content: space-between;
+}
+
+.see-deals {
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.lates-price > span:first-child {
+  color: var(--grey-white);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+}
+
+.lates-price > span:nth-child(2) {
+  color: #555;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.offer {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: none;
+}
+
+.off-image {
+  position: relative;
+}
+
+.span-off {
+  position: absolute;
+  right: 10px;
+  top: 30px;
+  text-align: center;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (min-width: 600px) {
+  .offer {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .art-2-1.hidden {
+    display: flex;
+  }
+}
