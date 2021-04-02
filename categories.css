@@ -44,6 +44,10 @@
   font-size: 14px;
 }
 
+.black-link > a {
+  color: #555;
+}
+
 .title > h2 > a {
   color: var(--orange);
   font-size: 28px;
